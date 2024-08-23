@@ -7,8 +7,8 @@ import "package:firebase_core/firebase_core.dart";
 import "package:firebase_messaging/firebase_messaging.dart";
 import "package:flutter/foundation.dart";
 import "package:flutter_local_notifications/flutter_local_notifications.dart";
-import "package:pizza_hut_client_mobile/firebase_options.dart";
-import "package:pizza_hut_client_mobile/router/app_routes.dart";
+import "package:currency_clean_architecture/firebase_options.dart";
+import "package:currency_clean_architecture/router/app_routes.dart";
 
 late AndroidNotificationChannel channel;
 late FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin;

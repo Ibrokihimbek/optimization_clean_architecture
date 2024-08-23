@@ -1,11 +1,12 @@
 class CurrencyResponseModel {
   CurrencyResponseModel({
-      this.title, 
-      this.code, 
-      this.cbPrice, 
-      this.nbuBuyPrice, 
-      this.nbuCellPrice, 
-      this.date,});
+    this.title,
+    this.code,
+    this.cbPrice,
+    this.nbuBuyPrice,
+    this.nbuCellPrice,
+    this.date,
+  });
 
   CurrencyResponseModel.fromJson(dynamic json) {
     title = json['title'];
@@ -15,11 +16,12 @@ class CurrencyResponseModel {
     nbuCellPrice = json['nbu_cell_price'];
     date = json['date'];
   }
+
   String? title;
   String? code;
   String? cbPrice;
-  dynamic nbuBuyPrice;
-  dynamic nbuCellPrice;
+  String? nbuBuyPrice;
+  String? nbuCellPrice;
   String? date;
 
   Map<String, dynamic> toJson() {
@@ -32,5 +34,4 @@ class CurrencyResponseModel {
     map['date'] = date;
     return map;
   }
-
 }

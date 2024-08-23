@@ -1,6 +1,6 @@
 import "package:flutter/gestures.dart";
 import "package:flutter/material.dart";
-import "package:pizza_hut_client_mobile/core/extension/extension.dart";
+import "package:currency_clean_architecture/core/extension/extension.dart";
 
 class TextExpandWidget extends StatefulWidget {
   const TextExpandWidget({

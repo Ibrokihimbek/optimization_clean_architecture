@@ -1,6 +1,6 @@
 // ignore_for_file: avoid_dynamic_calls
 import "package:dio/dio.dart" hide Headers;
-import "package:pizza_hut_client_mobile/core/error/failure.dart";
+import "package:currency_clean_architecture/core/error/failure.dart";
 
 final class ServerError implements Exception {
   ServerError.withDioError({required DioException error}) {

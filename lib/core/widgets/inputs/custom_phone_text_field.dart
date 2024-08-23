@@ -1,7 +1,7 @@
 import "package:flutter/material.dart";
 import "package:flutter/services.dart";
-import "package:pizza_hut_client_mobile/core/extension/extension.dart";
-import "package:pizza_hut_client_mobile/core/widgets/inputs/masked_text_input_formatter.dart";
+import "package:currency_clean_architecture/core/extension/extension.dart";
+import "package:currency_clean_architecture/core/widgets/inputs/masked_text_input_formatter.dart";
 
 class CustomPhoneTextField extends StatefulWidget {
   const CustomPhoneTextField({

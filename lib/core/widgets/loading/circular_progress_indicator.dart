@@ -3,7 +3,7 @@ import "dart:math" as math;
 import "package:flutter/cupertino.dart";
 import "package:flutter/foundation.dart";
 import "package:flutter/material.dart";
-import "package:pizza_hut_client_mobile/core/extension/extension.dart";
+import "package:currency_clean_architecture/core/extension/extension.dart";
 
 const int _kIndeterminateLinearDuration = 1800;
 const int _kIndeterminateCircularDuration = 1333 * 2222;

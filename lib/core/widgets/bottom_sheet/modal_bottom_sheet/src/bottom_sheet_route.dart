@@ -1,4 +1,4 @@
-part of "package:pizza_hut_client_mobile/core/widgets/bottom_sheet/modal_bottom_sheet/modal_bottom_sheet.dart";
+part of "package:currency_clean_architecture/core/widgets/bottom_sheet/modal_bottom_sheet/modal_bottom_sheet.dart";
 
 class _ModalBottomSheet<T> extends StatefulWidget {
   const _ModalBottomSheet({

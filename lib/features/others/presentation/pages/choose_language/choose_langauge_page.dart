@@ -21,8 +21,6 @@ class ChooseLanguagePage extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
               AppUtils.kSpacer,
-              alignLogo,
-              AppUtils.kSpacer,
               const Text(
                 "Выберите язык:",
                 style: TextStyle(

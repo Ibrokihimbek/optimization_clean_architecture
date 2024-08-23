@@ -2,7 +2,7 @@ import "package:equatable/equatable.dart";
 import "package:flutter/material.dart";
 import "package:flutter/services.dart" show SystemUiOverlayStyle;
 
-import "package:pizza_hut_client_mobile/core/widgets/keyboard/keyboard_dismiss.dart";
+import "package:currency_clean_architecture/core/widgets/keyboard/keyboard_dismiss.dart";
 
 class AppOptions extends Equatable {
   const AppOptions({

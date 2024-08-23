@@ -3,12 +3,10 @@
 import "package:flutter/material.dart";
 import "package:flutter_bloc/flutter_bloc.dart";
 import "package:go_router/go_router.dart";
-import "package:pizza_hut_client_mobile/core/extension/extension.dart";
-import "package:pizza_hut_client_mobile/core/theme/themes.dart";
-import "package:pizza_hut_client_mobile/features/main/presentation/bloc/main_bloc.dart";
-import "package:pizza_hut_client_mobile/features/main/presentation/pages/mixin/main_mixin.dart";
-import "package:pizza_hut_client_mobile/injector_container.dart";
-import "package:pizza_hut_client_mobile/router/app_routes.dart";
+import "package:currency_clean_architecture/core/extension/extension.dart";
+import "package:currency_clean_architecture/core/theme/themes.dart";
+import "package:currency_clean_architecture/features/main/presentation/bloc/main_bloc.dart";
+import "package:currency_clean_architecture/features/main/presentation/pages/mixin/main_mixin.dart";
 
 class MainPage extends StatelessWidget with MainMixin {
   const MainPage({
@@ -34,18 +32,19 @@ class MainPage extends StatelessWidget with MainMixin {
                 onTap: (int index) => changeTap(index, context),
                 items: <BottomNavigationBarItem>[
                   BottomNavigationBarItem(
-                    icon: const Icon(AppIcons.home),
-                    activeIcon: const Icon(AppIcons.home_active),
+                    icon: const Icon(Icons.home),
+                    activeIcon: Icon(
+                      Icons.home,
+                      color: context.colorScheme.primary,
+                    ),
                     label: context.tr("home"),
                   ),
                   BottomNavigationBarItem(
-                    icon: const Icon(AppIcons.chat_info),
-                    activeIcon: const Icon(AppIcons.receipt),
-                    label: context.tr("orders"),
-                  ),
-                  BottomNavigationBarItem(
-                    icon: const Icon(AppIcons.account_circle),
-                    activeIcon: const Icon(AppIcons.profile_circle),
+                    icon: const Icon(Icons.person),
+                    activeIcon: Icon(
+                      Icons.person,
+                      color: context.colorScheme.primary,
+                    ),
                     label: context.tr("profile"),
                   ),
                 ],
@@ -59,10 +58,6 @@ class MainPage extends StatelessWidget with MainMixin {
     int index,
     BuildContext context,
   ) {
-    if ((index == 2 || index == 1) && !localSource.hasProfile) {
-      context.pushNamed(Routes.auth);
-      return;
-    }
     navigationShell.goBranch(
       index,
       initialLocation: index == navigationShell.currentIndex,

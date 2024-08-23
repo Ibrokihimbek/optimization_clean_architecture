@@ -6,10 +6,3 @@ sealed class MainEvent extends Equatable {
   @override
   List<Object?> get props => <Object?>[];
 }
-
-class MainAppVersionCheck extends MainEvent {
-  const MainAppVersionCheck();
-
-  @override
-  List<Object?> get props => <Object?>[];
-}

@@ -2,10 +2,10 @@ import "dart:async";
 
 import "package:async/async.dart";
 import "package:flutter/material.dart";
-import "package:pizza_hut_client_mobile/core/extension/extension.dart";
-import "package:pizza_hut_client_mobile/core/theme/themes.dart";
-import "package:pizza_hut_client_mobile/core/utils/utils.dart";
-import "package:pizza_hut_client_mobile/core/widgets/loading/circular_progress_indicator.dart";
+import "package:currency_clean_architecture/core/extension/extension.dart";
+import "package:currency_clean_architecture/core/theme/themes.dart";
+import "package:currency_clean_architecture/core/utils/utils.dart";
+import "package:currency_clean_architecture/core/widgets/loading/circular_progress_indicator.dart";
 
 mixin ControllerListener<T> on State<FlappySearchBar<T>> {
   void onListChanged(List<T> items) {}
@@ -146,7 +146,7 @@ class FlappySearchBar<T> extends StatefulWidget {
     this.emptyWidget = const SizedBox.shrink(),
     this.header,
     this.placeHolder,
-    this.icon = const Icon(AppIcons.search),
+    this.icon = const Icon(Icons.search),
     this.hintText = "",
     this.hintStyle = const TextStyle(
       color: Color.fromRGBO(36, 36, 36, 0.45),

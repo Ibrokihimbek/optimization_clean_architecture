@@ -1,4 +1,4 @@
-part of "package:pizza_hut_client_mobile/core/theme/themes.dart";
+part of "package:currency_clean_architecture/core/theme/themes.dart";
 
 /// A set of colors for the entire app.
 const ColorScheme colorLightScheme = ColorScheme(

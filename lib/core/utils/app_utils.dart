@@ -1,17 +1,5 @@
 part of "utils.dart";
 
-/// logo
-const Align alignLogo = Align(child: Logo());
-const Align alignIconLogo = Align(child: LogoIcon());
-const Image defaultProductImage = Image(
-  image: AssetImage(Images.defaultProduct),
-  fit: BoxFit.contain,
-);
-const Image defaultPizzaImage = Image(
-  image: AssetImage(Images.defaultPizza),
-  fit: BoxFit.contain,
-);
-
 sealed class AppUtils {
   AppUtils._();
 
@@ -259,19 +247,6 @@ sealed class AppUtils {
   static const RoundedRectangleBorder kShapeAll12 = RoundedRectangleBorder(
     borderRadius: BorderRadius.all(Radius.circular(12)),
   );
-
-  // static const kTabBarBoxDecoration = BoxDecoration(
-  //   color: AppColors.bgGrey2,
-  //   borderRadius: kBorderRadius8,
-  // );
-  // static const kTabBarBoxDecorationDark = BoxDecoration(
-  //   color: ThemeColors.backgroundDark,
-  //   borderRadius: kBorderRadius8,
-  // );
-  // static const kTabBoxDecoration = BoxDecoration(
-  //   color: AppColors.white,
-  //   borderRadius: kBorderRadius8,
-  // );
 
   ///
   static const BoxConstraints kBoxConstraints24 = BoxConstraints.tightFor(

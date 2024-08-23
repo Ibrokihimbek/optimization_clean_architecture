@@ -3,7 +3,7 @@ import "dart:async";
 import "package:flutter/gestures.dart";
 import "package:flutter/material.dart";
 
-import "package:pizza_hut_client_mobile/core/widgets/animations/carousel_slider_transforms.dart";
+import "package:currency_clean_architecture/core/widgets/animations/carousel_slider_transforms.dart";
 
 export "carousel_slider_transforms.dart";
 

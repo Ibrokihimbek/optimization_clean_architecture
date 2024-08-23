@@ -8,19 +8,3 @@ extension ColorExtension on String {
   Color get toColor => Color(int.parse("0xff${substring(1)}"));
 }
 
-extension PaymentMethodExtension on PaymentTypes {
-  String get assets {
-    switch (value) {
-      case "cash":
-        return Images.icCash;
-      case "click":
-        return Images.icClick;
-      case "uzum":
-        return Images.icUzum;
-      case "payme":
-        return Images.icPayme;
-      default:
-        return Images.icCash;
-    }
-  }
-}

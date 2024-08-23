@@ -1,5 +1,5 @@
 import "package:flutter/material.dart";
-import "package:pizza_hut_client_mobile/core/theme/themes.dart";
+import "package:currency_clean_architecture/core/theme/themes.dart";
 
 typedef RatingChangeCallback = void Function(double rating)?;
 
@@ -61,7 +61,7 @@ class RatingBarWidget extends StatelessWidget {
         colors: <Color>[activeRatingColor, inactiveRatingColor],
         stops: <double>[present, present],
       ).createShader(bounds),
-      child: Icon(AppIcons.star, size: iconsSize),
+      child: Icon(Icons.star, size: iconsSize),
     );
 
     return InkResponse(

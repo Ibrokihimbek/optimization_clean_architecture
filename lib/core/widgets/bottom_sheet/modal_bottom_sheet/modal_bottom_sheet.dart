@@ -7,8 +7,8 @@ import "package:flutter/gestures.dart";
 import "package:flutter/material.dart" hide ModalBottomSheetRoute;
 import "package:flutter/material.dart";
 import "package:flutter/services.dart";
-import "package:pizza_hut_client_mobile/core/extension/extension.dart";
-import "package:pizza_hut_client_mobile/core/utils/utils.dart";
+import "package:currency_clean_architecture/core/extension/extension.dart";
+import "package:currency_clean_architecture/core/utils/utils.dart";
 
 part "src/bottom_sheet.dart";
 

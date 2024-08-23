@@ -4,9 +4,9 @@ import "dart:io";
 import "package:flutter/cupertino.dart";
 import "package:flutter_svg/flutter_svg.dart";
 import "package:map_launcher/map_launcher.dart";
-import "package:pizza_hut_client_mobile/core/extension/extension.dart";
-import "package:pizza_hut_client_mobile/core/utils/utils.dart";
-import "package:pizza_hut_client_mobile/core/widgets/bottom_sheet/custom_bottom_sheet.dart";
+import "package:currency_clean_architecture/core/extension/extension.dart";
+import "package:currency_clean_architecture/core/utils/utils.dart";
+import "package:currency_clean_architecture/core/widgets/bottom_sheet/custom_bottom_sheet.dart";
 
 sealed class MapsSheet {
   MapsSheet._();

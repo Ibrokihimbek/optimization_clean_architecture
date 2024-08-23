@@ -1,9 +1,9 @@
 import "package:flutter/material.dart";
 
-import "package:pizza_hut_client_mobile/core/extension/extension.dart";
-import "package:pizza_hut_client_mobile/core/l10n/app_localizations_setup.dart";
-import "package:pizza_hut_client_mobile/core/theme/themes.dart";
-import "package:pizza_hut_client_mobile/router/app_routes.dart";
+import "package:currency_clean_architecture/core/extension/extension.dart";
+import "package:currency_clean_architecture/core/l10n/app_localizations_setup.dart";
+import "package:currency_clean_architecture/core/theme/themes.dart";
+import "package:currency_clean_architecture/router/app_routes.dart";
 
 class App extends StatelessWidget {
   const App({super.key});

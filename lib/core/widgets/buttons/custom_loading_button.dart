@@ -1,5 +1,5 @@
 import "package:flutter/material.dart";
-import "package:pizza_hut_client_mobile/core/widgets/loading/circular_progress_indicator.dart";
+import "package:currency_clean_architecture/core/widgets/loading/circular_progress_indicator.dart";
 
 class CustomLoadingButton extends StatelessWidget {
   const CustomLoadingButton({

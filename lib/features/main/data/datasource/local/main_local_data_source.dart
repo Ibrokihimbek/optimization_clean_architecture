@@ -1,4 +1,4 @@
-import "package:pizza_hut_client_mobile/core/local_source/local_source.dart";
+import "package:currency_clean_architecture/core/local_source/local_source.dart";
 
 part "main_local_data_source_impl.dart";
 

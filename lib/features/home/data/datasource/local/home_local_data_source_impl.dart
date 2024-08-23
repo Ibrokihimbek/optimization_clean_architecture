@@ -7,20 +7,4 @@ class HomeLocalDataSourceImpl implements HomeLocalDataSource {
 
   final LocalSource localSource;
 
-  @override
-  Map<String, dynamic>? getSourceSettings(String shipperId) {
-    final String json = localSource.getKey(Urls.sourceSettings + shipperId);
-    if (json.isNotEmpty) {
-      return jsonDecode(json) as Map<String, dynamic>;
-    }
-    return null;
-  }
-
-  @override
-  Future<void> saveSourceSettings(
-    String shipperId,
-    Map<String, dynamic> json,
-  ) async {
-    await localSource.setKey(Urls.sourceSettings + shipperId, jsonEncode(json));
-  }
 }

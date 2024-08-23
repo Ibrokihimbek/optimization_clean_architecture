@@ -1,5 +1,5 @@
 import "package:flutter/material.dart";
-import "package:pizza_hut_client_mobile/core/utils/utils.dart";
+import "package:currency_clean_architecture/core/utils/utils.dart";
 
 class BottomLoadingIndicatorWidget extends StatelessWidget {
   const BottomLoadingIndicatorWidget({super.key});
