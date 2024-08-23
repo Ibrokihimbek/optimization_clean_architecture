@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "853523636164",
+    "project_id": "currency-clean-architecture",
+    "storage_bucket": "currency-clean-architecture.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853523636164:android:9c6ebe866493199f928e91",
+        "android_client_info": {
+          "package_name": "com.example.currency_clean_architecture"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyBiXEv8KqnhA6LodLq6xLD0udCePzZtc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
